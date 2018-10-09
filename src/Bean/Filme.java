@@ -6,10 +6,9 @@ package Bean;
  */
 public class Filme {
     
-    private int id;
+    private int id, duracao, ano;
     private String filme, nome, diretor, categoria, atorPrincipal, faixaEtaria, idiomaOriginal;
     private boolean legenda, dublado;
-    private short duracao, ano;
     private double orcamento, faturamento;
 
     public int getId() {
@@ -92,19 +91,19 @@ public class Filme {
         this.dublado = dublado;
     }
 
-    public short getDuracao() {
+    public int getDuracao() {
         return duracao;
     }
 
-    public void setDuracao(short duracao) {
+    public void setDuracao(int duracao) {
         this.duracao = duracao;
     }
 
-    public short getAno() {
+    public int getAno() {
         return ano;
     }
 
-    public void setAno(short ano) {
+    public void setAno(int ano) {
         this.ano = ano;
     }
 
